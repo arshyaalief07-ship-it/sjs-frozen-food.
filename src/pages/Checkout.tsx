@@ -57,7 +57,7 @@ export default function Checkout() {
   if (sent) {
     return (
       <div className="container-app flex flex-col items-center gap-4 py-20 text-center">
-        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-emerald-100 text-3xl">âœ…</span>
+        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-emerald-100 text-3xl">G£à</span>
         <h1 className="font-display text-2xl font-bold text-slate-900">Pesanan siap dikirim ke WhatsApp!</h1>
         <p className="max-w-sm text-sm text-slate-500">
           Jika WhatsApp belum terbuka otomatis, periksa pop-up blocker di browser Anda.
@@ -90,7 +90,7 @@ export default function Checkout() {
                       {imageUrl ? (
                         <img src={imageUrl} alt={item.name} className="h-full w-full object-cover" />
                       ) : (
-                        <div className="flex h-full w-full items-center justify-center text-xl">ðŸ§Š</div>
+                        <div className="flex h-full w-full items-center justify-center text-xl">=ƒºè</div>
                       )}
                     </div>
                     <div className="flex flex-1 flex-col gap-1">
